@@ -1,0 +1,33 @@
+body {
+    max-width: 40rem;
+    font-family: sans-serif;
+    padding: 0.5rem;
+    margin: 0 auto;
+}
+
+.mono {
+    font-family: monospace;
+}
+.muted {
+    color: #666;
+}
+.muted:visited {
+    color: #727272;
+}
+.bracket {
+    color: #383f82;
+}
+.bracket::before {
+    content: '{';
+    color: #aaa;
+}
+.bracket::after {
+    content: '}';
+    color: #aaa;
+}
+ul {
+    list-style-type: square;
+}
+p, li {
+    line-height: 1.5;
+}
